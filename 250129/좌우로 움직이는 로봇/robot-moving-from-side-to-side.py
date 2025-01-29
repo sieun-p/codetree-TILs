@@ -46,7 +46,7 @@ del loc_b[0]
 cnt = 0
 loc_ab = 0
 for a,b in zip(loc_a, loc_b):
-    if a==b and a!=loc_ab:
+    if a==b and a!=loc_ab and b!=loc_ab:
         cnt += 1
         loc_ab = a
 
